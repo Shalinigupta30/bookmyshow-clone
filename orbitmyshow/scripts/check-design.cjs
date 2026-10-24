@@ -1,0 +1,2 @@
+const fs=require('node:fs');const {execFileSync}=require('node:child_process');for(const file of ['dist/design.js','dist/scene.js'])execFileSync(process.execPath,['--check',file],{stdio:'inherit'});
+const pages=fs.readdirSync('dist').filter(f=>f.endsWith('.html'));for(const p of pages){const s=fs.readFileSync('dist/'+p,'utf8');if(!s.includes('design.css')||!s.includes('design.js'))throw Error('Missing shared design on '+p)}console.log('Shared design installed across '+pages.length+' pages.');

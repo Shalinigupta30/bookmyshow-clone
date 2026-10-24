@@ -1,0 +1,11 @@
+# Local application secrets, runtime data and generated dependencies.
+/orbitmyshow/.env
+/orbitmyshow/.env.*
+!/orbitmyshow/.env.example
+/orbitmyshow/node_modules/
+/orbitmyshow/data/
+/orbitmyshow/test-results/
+/orbitmyshow/.openai/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
