@@ -1,12 +1,12 @@
 <div align="center">
 
-![EchoMyShow — Make a night of it.](orbitmyshow/docs/assets/banner.svg)
+![EchoMyShow — Make a night of it.](docs/assets/banner.svg)
 
 **A cinema and live-experience platform with a little more dimension.**
 
 3D discovery · AI recommendations · Account-backed bookings · A custom sandbox checkout
 
-![Node.js 24+, Three.js, SQLite, Gemini and sandbox payments](orbitmyshow/docs/assets/stack.svg)
+![Node.js 24+, Three.js, SQLite, Gemini and sandbox payments](docs/assets/stack.svg)
 
 [Explore the experience](#the-experience) &nbsp; / &nbsp; [Run locally](#run-it-locally) &nbsp; / &nbsp; [Architecture](#under-the-hood) &nbsp; / &nbsp; [Security](#built-with-boundaries)
 
@@ -20,14 +20,14 @@ EchoMyShow brings movie discovery, Delhi experiences and ticket booking into one
 
 This is an independent project inspired by BookMyShow. Listings are sample data, and payments are simulations.
 
-![Four parts of the Echo experience: 3D cinema, AI discovery, saved plans and sandbox checkout](orbitmyshow/docs/assets/features.svg)
+![Four parts of the Echo experience: 3D cinema, AI discovery, saved plans and sandbox checkout](docs/assets/features.svg)
 
 ## The experience
 
 <table>
 <tr>
 <td width="38%" align="center">
-<img src="orbitmyshow/docs/assets/experience.png" alt="EchoMyShow's cinematic hero with dimensional movie posters and an Explore movies button" width="310">
+<img src="docs/assets/experience.png" alt="EchoMyShow's cinematic hero with dimensional movie posters and an Explore movies button" width="310">
 </td>
 <td width="62%">
 <h3>A little depth changes the view.</h3>
